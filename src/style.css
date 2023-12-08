@@ -23,9 +23,11 @@ footer {
     padding: 1em;
 }
 
-/* Add styles for the image */
-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px; /* Example: add a border radius */
+/* Add styles for the logo and header */
+.logo {
+    max-width: 100px; /* Set a specific maximum width for the logo */
+    height: auto;     /* Maintain aspect ratio */
+    position: absolute; /* Position the logo absolutely within its containing element */
+    top: 10px; /* Adjust the top position as needed */
+    left: 10px; /* Adjust the left position as needed */
 }
