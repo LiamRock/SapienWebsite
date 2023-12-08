@@ -35,3 +35,6 @@ footer {
     align-items: center; /* Align items vertically in the flex container */
 }
 
+h1 {
+    display: inline-block;
+}
