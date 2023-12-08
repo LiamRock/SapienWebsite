@@ -10,7 +10,7 @@ header {
     color: #fff;
     text-align: center;
     position: relative; /* Set the header position to relative to contain the absolute positioning of the logo */
-    padding: 0%; /* Add padding to the header to create space around the logo */
+    padding: 5%; /* Add padding to the header to create space around the logo */
 }
 
 main {
@@ -33,3 +33,9 @@ footer {
 h1 {
     margin-left: 10px; /* Add margin to separate the logo and title text */
 }
+
+.logo-container {
+    display: flex;
+    align-items: center; /* Align items vertically in the flex container */
+}
+
